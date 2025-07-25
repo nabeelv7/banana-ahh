@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Bricolage Grotesque", sans-serif, system-ui, monospace;
+	background-color: #151515;
+	color: #f1f1f1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.container {
+	width: 800px;
+	height: 500px;
+	border: 1px dashed #f1f1f1;
+	background-color: #181818;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	opacity: 70%;
+}
