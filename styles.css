@@ -21,8 +21,29 @@ body {
 	background-color: #181818;
 	border-radius: 5px;
 	display: flex;
+	flex-direction: column;
+	gap: 10px;
 	justify-content: center;
 	align-items: center;
+	cursor: url("./cursors/Pointer.cur"), auto;
+}
+
+.container a {
+	text-decoration: none;
+	padding-block: 8px;
+	padding-inline: 13px;
+	border-radius: 5px;
+	background-color: #5d5dbd;
+	color: white;
+	cursor: url("./cursors/Link.cur"), auto;
+}
+
+.container h1 {
+	cursor: url("./cursors/Text.cur"), auto;
+}
+
+.container a:hover {
+	opacity: 90%;
 }
 
 h1 {
